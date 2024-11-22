@@ -1,0 +1,41 @@
+
+
+h2 {
+    color: cadetblue;
+    margin-left: 20px;
+}
+
+p.Parrafo2 {
+    color: blue;
+}
+
+#subtitulo {
+    color: rgb(52, 223, 37);
+}
+
+* {
+    font-size: 30px;
+}
+
+div p {
+    color: chocolate;
+}
+
+d.div2 ~ p {
+    color: rgb(199, 199, 199);
+}
+
+a.link:hover {
+    color: green;
+} 
+
+a.link:active {
+    color: blueviolet;
+}
+
+p.lorem::first-letter {
+    font-size: 50px;
+}
+p.lorem::first-line {
+    color: rgb(236, 217, 217);
+}

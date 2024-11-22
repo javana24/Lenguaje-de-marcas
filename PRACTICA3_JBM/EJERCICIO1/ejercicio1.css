@@ -1,0 +1,27 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#titulos {
+    color: #999494;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 23%;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 10px;
+}
+
+#piedetabla {
+    background-color: #dddddd;
+}
+
+#titulotabla {
+    background-color: #999494;
+}

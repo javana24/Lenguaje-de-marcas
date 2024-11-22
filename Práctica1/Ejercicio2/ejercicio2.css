@@ -1,0 +1,76 @@
+
+/* Todos los elementos de la página */
+* {
+  font: 1em/1.3 Arial, Helvetica, sans-serif;
+} /* Todos los parrafos de la página */
+
+p {
+  color: #555;
+} /* Todos los párrafos contenidos en #primero */
+
+p#primero {
+  color: #336699;
+} /* Todos los enlaces la página */
+
+a {
+  color: #cc3300;
+} /* Los elementos "em" contenidos en #primero */
+
+em.primero{
+  background: #ffffcc;
+  padding: 0.1em;
+} /* Todos los elementos "em" de clase "especial" en toda la página */
+
+.especial.em{
+  background: #ffcc99;
+  border: 1px solid #ff9900;
+  padding: 0.1em;
+} /* Elementos "span" contenidos en .normal */
+
+.span.normal{
+  font-weight: bold;
+}
+
+
+h2{
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+} /* Todos los encabezados h1 y h2 */
+h1{
+  text-align: center;
+} /* Todo el bloque #uno */
+
+#uno{
+  background-color: #555;
+  padding: 2em;
+} /* Todos los párrafos contenidos en el bloque de id uno */
+
+p#uno{
+  color: rgb(187, 197, 207);
+} /* Todos los enlaces la página no visitados */
+
+a {
+  color: rgb(0, 204, 10);
+} /* Todos los enlaces la página visitados */
+
+a.activate{
+  color: rgb(207, 89, 172);
+} /* El bloque con id dos */
+
+#dos{
+  color: #0000bb;
+  background-color: #ffffcc;
+} /* Todos los elementos con la clase "estrecho" */
+
+.estrecho{
+  width: 50%;
+
+} /* Todos los elementos <span> contenidos en la clase "estrecho" */
+span.estrecho{
+  font-weight: bold;
+}
+
+/*este es el ejercicio 3*/
+p.ejer2 {
+  font-size: 24px;
+}

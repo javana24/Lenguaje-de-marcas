@@ -1,0 +1,54 @@
+#titulo {
+    font-size: 30px;
+    color: blue;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 35%;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 10px;
+}
+
+#titulotabla {
+    color: white;
+    background-color: #666;
+    text-align: center;
+}
+
+.Facebook {
+    text-align: center;
+    background: linear-gradient(to bottom, orange, blue);
+}
+
+.Linkedin {
+    text-align: center;
+    background: linear-gradient(to bottom, blue, cyan);
+}
+
+.Twitter {
+    text-align: center;
+    background: linear-gradient(to bottom, cyan, lime);
+}
+
+.Instagram {
+    text-align: center;
+    background: linear-gradient(to bottom, orange, purple);
+}
+
+.Snapchat {
+    text-align: center;
+    background: linear-gradient(to bottom, purple, yellow);
+}
+
+.WhatsApp {
+    text-align: center;
+    background: linear-gradient(to bottom,  yellow, lime);
+}
+
