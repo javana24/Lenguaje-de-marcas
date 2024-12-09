@@ -2,8 +2,8 @@
 body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 18px;
-    background-color: #fdf2e9; /* Beige claro */
-    color: #4e342e; /* Marrón oscuro */
+    background-color: #fdf2e9; 
+    color: #4e342e; 
 }
 
 h2 {
@@ -32,19 +32,19 @@ header, footer {
 
 /* Barra de navegación */
 nav {
-    background-color: #a1887f; /* Marrón más claro */
+    background-color: #a1887f; 
     display: flex;
     justify-content: space-around;
     padding: 10px;
     width: 100%;
 }
 nav a {
-    color: #4e342e; /* Marrón oscuro */
+    color: #4e342e; 
     padding:  10px;
     border-radius: 10px;
 }
 nav a:hover { 
-    background-color: #795548; /* Marrón medio */
+    background-color: #795548; 
     color: white;
 }
 
@@ -62,13 +62,14 @@ nav a:hover {
 #nosotros{
     width: 50%;
     margin: 0 auto;
+    box-shadow: 0 20px 20px rgba(138, 76, 41, 0.7);
 }
     
 
 #nosotros p{
     background-color:  #a1887f;
     padding: 20px;
-    border: 2px solid #6e544a;
+    border: 2px solid #6e544a; 
     border-radius: 10px;
     margin-top: 10px;
     display: flex; 
@@ -85,52 +86,6 @@ nav a:hover {
     padding: 20px;
     gap: 20px;
    
-}
-
-/*Sudaderas */
-
-.sudaderas {
-    text-align: center;
-    flex: 1; /* Cada producto ocupa la misma cantidad de espacio */
-    max-width: 50%;
-    background-color: #d7ccc8;
-    padding: 10px;
-    border: 1px solid #8d6e63;
-    border-radius: 10px;   
-}
-.sudaderas > img {
-    max-width: 275px;
-    border-radius: 12px;
-}
-
-/* Pantalones */
-.pantalones {
-    text-align: center;
-    flex: 1; /* Cada producto ocupa la misma cantidad de espacio */
-    max-width: 50%;
-    background-color: #d7ccc8;
-    padding: 10px;
-    border: 1px solid #8d6e63;
-    border-radius: 10px;   
-}
-.pantalones > img {
-    max-width: 275px;
-    border-radius: 12px;
-}
-
-/* Zapatos */
-.zapatos {
-    text-align: center;
-    flex: 1; /* Cada producto ocupa la misma cantidad de espacio */
-    max-width: 50%;
-    background-color: #d7ccc8;
-    padding: 10px;
-    border: 1px solid #8d6e63;
-    border-radius: 10px;   
-}
-.zapatos > img {
-    max-width: 275px;
-    border-radius: 12px;
 }
 
 /* Formulario */
@@ -167,6 +122,53 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #24140e; 
 }
+
+/*Sudaderas */
+
+.sudaderas {
+    text-align: center;
+    flex: 1; 
+    max-width: 50%;
+    background-color: #d7ccc8;
+    padding: 10px;
+    border: 1px solid #8d6e63;
+    border-radius: 10px;   
+}
+.sudaderas > img {
+    max-width: 275px;
+    border-radius: 12px;
+}
+
+/* Pantalones */
+.pantalones {
+    text-align: center;
+    flex: 1;
+    max-width: 50%;
+    background-color: #d7ccc8;
+    padding: 10px;
+    border: 1px solid #8d6e63;
+    border-radius: 10px;   
+}
+.pantalones > img {
+    max-width: 275px;
+    border-radius: 12px;
+}
+
+/* Zapatos */
+.zapatos {
+    text-align: center;
+    flex: 1; 
+    max-width: 50%;
+    background-color: #d7ccc8;
+    padding: 10px;
+    border: 1px solid #8d6e63;
+    border-radius: 10px;   
+}
+.zapatos > img {
+    max-width: 275px;
+    border-radius: 12px;
+}
+
 
 /* Mapa */
 iframe#mapa {
