@@ -48,26 +48,98 @@ nav a:hover {
     color: white;
 }
 
-/*PROBANDO COSAS!!!!!*/
+/* Video */
+#video{
+    text-align: center;
+}
+
+#video > iframe{
+    width: 50%; 
+    height: 300px;
+}
+
+/* Quienes somos*/
+#nosotros{
+    width: 50%;
+    margin: 0 auto;
+}
+    
+
+#nosotros p{
+    background-color:  #a1887f;
+    padding: 20px;
+    border: 2px solid #6e544a;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+}
+
 /* Productos */
 .productos {
     display: flex;
-    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 20px;
+    gap: 20px;
+   
 }
+
+/*Sudaderas */
+
 .sudaderas {
     text-align: center;
+    flex: 1; /* Cada producto ocupa la misma cantidad de espacio */
+    max-width: 50%;
     background-color: #d7ccc8;
     padding: 10px;
     border: 1px solid #8d6e63;
-    border-radius: 10px;
+    border-radius: 10px;   
 }
-.sudaderas img {
-    max-width: 200px;
-    border-radius: 5px;
+.sudaderas > img {
+    max-width: 275px;
+    border-radius: 12px;
+}
+
+/* Pantalones */
+.pantalones {
+    text-align: center;
+    flex: 1; /* Cada producto ocupa la misma cantidad de espacio */
+    max-width: 50%;
+    background-color: #d7ccc8;
+    padding: 10px;
+    border: 1px solid #8d6e63;
+    border-radius: 10px;   
+}
+.pantalones > img {
+    max-width: 275px;
+    border-radius: 12px;
+}
+
+/* Zapatos */
+.zapatos {
+    text-align: center;
+    flex: 1; /* Cada producto ocupa la misma cantidad de espacio */
+    max-width: 50%;
+    background-color: #d7ccc8;
+    padding: 10px;
+    border: 1px solid #8d6e63;
+    border-radius: 10px;   
+}
+.zapatos > img {
+    max-width: 275px;
+    border-radius: 12px;
 }
 
 /* Formulario */
+
+#contacto{
+    width: 50%;
+    margin: auto;
+}
+
 form {
     background-color:  #a1887f;
     padding: 20px;
@@ -94,16 +166,6 @@ input[type="submit"] {
 }
 input[type="submit"]:hover {
     background-color: #24140e; 
-}
-
-/* Video */
-#video{
-    text-align: center;
-}
-
-#video > iframe{
-    width: 50%; 
-    height: 300px;
 }
 
 /* Mapa */
